@@ -165,7 +165,7 @@ public class AdminController {
                 stmt.setInt(4, Integer.parseInt(idField.getText()));
                 stmt.executeUpdate();
             } catch (Exception e) {
-                Alert alert = new Alert(Alert.AlertType.ERR);
+                Alert alert = new Alert(Alert.AlertType.ERROR);
                 alert.setTitle("Error");
                 alert.setHeaderText("Database Error");
                 alert.setContentText(e.toString());
