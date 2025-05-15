@@ -12,7 +12,7 @@ public class GradingDataSource {
     private static HikariDataSource ds;
 
     static {
-        config.setJdbcUrl("jdbc:postgresql://localhost:5432/ora");
+        config.setJdbcUrl("jdbc:postgresql://localhost:5432/oracle_hr");
         config.setUsername("user1");
         config.setPassword("user1");
         config.addDataSourceProperty("cachePrepStmts", "true");
